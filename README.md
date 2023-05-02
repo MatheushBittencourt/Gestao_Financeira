@@ -7,7 +7,7 @@
 | - forma_pagamento : String|
 +---------------------+
 | + getTipo() -> String          |
-| + getData() -> date         |
+| + getData() -> Date         |
 | + getValor() -> float       |
 | + getFormaPagamento() -> String|
 +---------------------+
@@ -16,7 +16,7 @@
 |        Ganho         |
 +---------------------+
 | - tipo : String      |
-| - data : date        |
+| - data : Date        |
 | - valor : float      |
 +---------------------+
 | + getTipo() -> String   |
