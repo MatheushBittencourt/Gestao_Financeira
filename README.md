@@ -1,26 +1,26 @@
 +---------------------+
 |        Gasto           |
 +---------------------+
-| - tipo : str           |
+| - tipo : String           |
 | - data : date          |
 | - valor : float        |
-| - forma_pagamento : str|
+| - forma_pagamento : String|
 +---------------------+
-| + getTipo() -> str          |
+| + getTipo() -> String          |
 | + getData() -> date         |
 | + getValor() -> float       |
-| + getFormaPagamento() -> str|
+| + getFormaPagamento() -> String|
 +---------------------+
 
 +---------------------+
 |        Ganho         |
 +---------------------+
-| - tipo : str         |
+| - tipo : String      |
 | - data : date        |
 | - valor : float      |
 +---------------------+
-| + getTipo() -> str   |
-| + getData() -> date  |
+| + getTipo() -> String   |
+| + getData() -> Date  |
 | + getValor() -> float|
 +---------------------+
 
@@ -34,7 +34,7 @@
 | + adicionarGanho(ganho:Ganho)     |
 | + calcularTotalGastos() -> float  |
 | + calcularTotalGanhos() -> float  |
-| + gerarRelatorioGastos() -> string|
-| + gerarRelatorioGanhos() -> string|
-| + gerarRelatorioSaldo() -> string |
+| + gerarRelatorioGastos() -> String|
+| + gerarRelatorioGanhos() -> String|
+| + gerarRelatorioSaldo() -> String |
 +----------------------+
